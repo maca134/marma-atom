@@ -11,3 +11,6 @@
 ## 1.3.0 - First Release
 * Tweaks to readmes
 
+## 1.6.0 - First Release
+* More error checking
+
