@@ -1,0 +1,16 @@
+{
+  "name": "marma-atom",
+  "main": "./lib/marma-atom",
+  "version": "1.0.0",
+  "description": "An atom plugin to run code in ARMA",
+  "keywords": [],
+  "repository": "bitbucket:maca134/marma-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "async": "^2.1.5",
+    "request": "^2.81.0"
+  }
+}

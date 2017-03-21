@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle marma-atom",
+        "command": "marma-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "marma-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "marma-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

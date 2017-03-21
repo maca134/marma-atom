@@ -1,0 +1,82 @@
+@import "ui-variables";
+@import "./font-awesome/font-awesome";
+
+.marma-atom {
+	@button-margin-size: 2px;
+	@button-border-size: 1px;
+	background-color: @base-background-color;
+	border: 1px solid @base-border-color;
+	color: @text-color;
+	display: flex;
+	justify-content: flex-start;
+	line-height: 32px;
+	padding: 0 5px;
+	height: 40px;
+	overflow: hidden;
+
+	select {
+		display: inline-block;
+		width: 200px;
+		margin-top: 3px;
+		margin-left: 5px;
+		background-color: @base-background-color;
+		color: @text-color;
+		border-color: @base-border-color;
+		&:focus,
+		&:hover {
+			box-shadow: none;
+			border-color: @background-color-selected;
+		}
+	}
+
+	span {
+		cursor: default;
+	}
+
+	.title {
+		line-height: 38px;
+		font-weight: bold;
+	}
+	.status {
+		line-height: 38px;
+		flex-grow: 1;
+		text-align: right;
+	}
+
+	.marma-atom-btn {
+		height: 32 + (@button-border-size * 2);
+		&:before {
+			font-size: 32 / 2;
+			line-height: 32;
+		}
+	}
+
+	button.marma-atom-btn {
+		background-color: @base-background-color;
+		background-image: inherit;
+		border-color: @base-background-color;
+		cursor: pointer;
+		flex: 0 0 auto;
+		margin: @button-margin-size;
+		padding: 0 10px;
+
+		&:before {
+			display: inline;
+		}
+		&:focus,
+		&:hover {
+			border-color: @button-border-color;
+			outline: none;
+		}
+	}
+}
+
+.marma-atom-right {
+	padding: 10px;
+	dl {
+		text-align: right;
+	}
+	dd {
+		margin-bottom: 5px;
+	}
+}
