@@ -1,7 +1,7 @@
 {
   "name": "marma-atom",
   "main": "./lib/marma-atom",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "An atom plugin to access your mARMA account",
   "keywords": [],
   "repository": "https://github.com/maca134/marma-atom",
